@@ -37,3 +37,29 @@ def era(family):
 a = [{1,2,3}, set(), {2}, {2,3}, {2}, {1,2,3}] # set() : 공집합
 print(era(a))
 # [set(), {2, 3}, {2}, {1, 2, 3}]
+
+
+#####
+# family of sets 생성기 
+# 정수를 원소로 하는 집합들을 원하는 만큼 원소로 넣어줄 수 있음
+#####
+
+print("한 set 입력의 끝:stop")
+fam_set = []
+a = 'N'
+while True :
+    set_temp = []
+    if a == 'Y' :  
+        break
+    else :
+        while True :
+            b = input("element:")   # while문과 결합하여 무한 input
+            if b == "stop" :        # stop 입력 시 while문이 깨지면서 set_temp 반환
+                break
+            else :
+                set_temp.append(int(b))
+        set_temp = set(set_temp)    # list인 set_temp를 set으로 변환
+        fam_set.append(set_temp)    # fam_set에 하나의 set_temp를 원소로 추가
+    a = input("want to end?(Y/N)")
+print(fam_set)
+# [{1,3,4}, {2,3}] 등의 집합족 반환
