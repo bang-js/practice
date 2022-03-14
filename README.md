@@ -3,4 +3,5 @@
 
 1. n번째 소수찾기
 2. 주어진 단어를 소수를 이용해 특정 숫자로 암호화
-3. 최소 sigma-algebra 찾기
+3. 집합족 : 주어진 표본공간에 대해 power set 생성, 임의의 집합족에서 중복 원소를 지우는 함수 family of sets (무한) 생성기
+4. 최소 sigma-algebra 찾기
