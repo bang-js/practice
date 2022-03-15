@@ -9,9 +9,9 @@ uniqueness_of_power_sum.ipynb \
 uniqueness_of_powersum.py
 ## 집합족
 family of sets.py \
- a. 주어진 표본공간에 대해 power set 생성 \
- b. 임의의 집합족에서 중복 원소를 지우는 함수 \
- c. family of sets (무한) 생성기
+&nbsp;&nbsp;a. 주어진 표본공간에 대해 power set 생성 \
+&nbsp;&nbsp;b. 임의의 집합족에서 중복 원소를 지우는 함수 \
+&nbsp;&nbsp;c. family of sets (무한) 생성기
 ## 최소 sigma-algebra 찾기
 chain_operation.py \
 sigma_algebra.py
